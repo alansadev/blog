@@ -10,7 +10,7 @@ type PostCoverImageProps = {
 export function PostCoverImage({ imageProps, linkProps }: PostCoverImageProps) {
   return (
     <Link
-      href={linkProps.href}
+      {...linkProps}
       className={clsx(
         'w-full',
         'h-full',

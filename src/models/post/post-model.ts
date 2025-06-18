@@ -4,7 +4,7 @@ export type PostModel = {
   slug: string;
   excerpt: string;
   content: string;
-  converImageUrl: string;
+  coverImageUrl: string;
   published: boolean;
   createdAt: string;
   updatedAt: string;
