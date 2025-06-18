@@ -19,7 +19,7 @@ export function Header() {
           'xl:py-13',
         )}
       >
-        <Link href='#'>The Blog</Link>
+        <Link href='/'>The Blog</Link>
       </h1>
     </header>
   );
